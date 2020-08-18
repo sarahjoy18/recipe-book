@@ -38,3 +38,6 @@ datariot:ganalytics
 
 check@1.3.1
 snowbreeze:auth-client-callbacks
+mrt:flash-messages
+themeteorchef:bert
+cleandersonlobo:sweetalert2
