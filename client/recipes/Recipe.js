@@ -15,6 +15,10 @@ if (Meteor.isClient) {
 					style: 'growl-top-right',
 					icon: 'fa fa-check'
 				});
+
+				//set editMode to false
+				//used aldeed:template-extension package
+				this.template.parent(5).editMode.set(false);
 			}
 		}
 	};
@@ -76,15 +80,14 @@ Template.Recipe.events({
 					)
 				}
 				else {
-					Meteor.call('deleteRecipe', this._id, (error, result) =>  {
-						if(result)
-						{
-						swal(
-							'Deleted!',
-							this.name + ' has been deleted!',
-							'success'
-						);
-						}else{
+					Meteor.call('deleteRecipe', this._id, (error, result) => {
+						if (result) {
+							swal(
+								'Deleted!',
+								this.name + ' has been deleted!',
+								'success'
+							);
+						} else {
 							console.log(error);
 						}
 					})
