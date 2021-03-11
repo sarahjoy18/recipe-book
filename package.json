@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.7.6",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "jquery": "^3.5.1",
     "meteor-node-stubs": "^1.0.0"
   }
