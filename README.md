@@ -22,7 +22,7 @@ This project leverages the **MeteorJS** full-stack framework, which provides rea
 
 * **Core Framework:** **MeteorJS** (includes Node.js server, built-in MongoDB, and front-end integration).  
 * **Frontend:** **Svelte** (for the UI, leveraging its reactive, compiler-driven approach).  
-* **Styling:** **Tailwind CSS** for a utility-first and responsive design approach.  
+* **Styling:** **CSS** for a utility-first and responsive design approach.  
 * **Database:** **MongoDB** (bundled with Meteor).
 
 ## **🚀 Getting Started**
